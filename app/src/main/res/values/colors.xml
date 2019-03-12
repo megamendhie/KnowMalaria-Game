@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#58595b</color>
+    <color name="colorPrimaryDark">#3e3f40</color>
+    <color name="colorAccent">#fa2b72</color>
+
+    <color name="levelOne">#cf8458</color>
+    <color name="levelOne_b">#abcf8458</color>
+    <color name="levelTwo">#316bb3</color>
+    <color name="levelTwo_b">#78316bb3</color>
+    <color name="levelThree">#9331b3</color>
+    <color name="levelThree_b">#7b9331b3</color>
+</resources>

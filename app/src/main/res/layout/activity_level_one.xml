@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="3"
+    android:background="#faecdb"
+    tools:context=".LevelOneActivity">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginBottom="30dp"
+        android:layout_weight="2.0">
+
+        <ImageButton
+            android:id="@+id/imgBg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/img_bg_two"/>
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/levelOne_b"
+            android:paddingStart="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="8dp">
+
+            <TextView
+                android:id="@+id/txtQ"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:gravity="center_horizontal"
+                android:text="What is Malaria?"
+                android:textColor="@android:color/white"
+                android:textSize="20sp" />
+
+            <ImageView
+                android:id="@+id/btnHome"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_margin="1dp"
+                android:src="@drawable/home"
+                android:tint="#DEDEDE"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+            <LinearLayout
+                android:id="@+id/lnrLove1"
+                android:layout_height="20dp"
+                android:layout_width="140dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true" >
+                <ImageView
+                    android:id="@+id/imgLife1"
+                    android:layout_height="18dp"
+                    android:layout_width="18dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:src="@drawable/love"/>
+
+                <ImageView
+                    android:id="@+id/imgLife2"
+                    android:layout_height="18dp"
+                    android:layout_width="18dp"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:src="@drawable/love"/>
+
+                <ImageView
+                    android:id="@+id/imgLife3"
+                    android:layout_height="18dp"
+                    android:layout_width="18dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/love"/>
+
+                <ImageView
+                    android:id="@+id/imgLife4"
+                    android:layout_height="18dp"
+                    android:layout_width="18dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/love"/>
+
+                <ImageView
+                    android:id="@+id/imgLife5"
+                    android:layout_height="18dp"
+                    android:layout_width="18dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/love"/>
+            </LinearLayout>
+
+        </RelativeLayout>
+
+    </FrameLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="1.0"
+        android:layout_gravity="center_horizontal">
+
+    <Button
+        android:id="@+id/btnOne"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:background="@drawable/btn_level_one"
+        android:text="btnOne"/>
+
+        <Button
+            android:id="@+id/btnTwo"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:padding="2dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/btn_level_one"
+            android:text="btnOne" />
+
+    <Button
+        android:id="@+id/btnThree"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_level_one"
+        android:text="btnOne"/>
+
+    <Button
+        android:id="@+id/btnFour"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:padding="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/btn_level_one"
+        android:text="btnOne"/>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:background="#F8274E">
+
+        <TextView
+            android:id="@+id/txtScore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:text="0/80" />
+
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_margin="4dp"
+            android:layout_toLeftOf="@id/txtCoins"
+            android:layout_centerInParent="true"
+            android:src="@drawable/wallet" />
+
+        <TextView
+            android:id="@+id/txtCoins"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:layout_centerInParent="true"
+            android:text="$0"/>
+
+        <ImageView
+            android:id="@+id/imgFifty"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="2dp"
+            android:src="@drawable/fifty_fifty"/>
+
+    </RelativeLayout>
+</LinearLayout>

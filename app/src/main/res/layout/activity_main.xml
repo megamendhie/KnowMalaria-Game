@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@drawable/bg_one"
+    android:paddingEnd="18dp"
+    android:paddingStart="18dp"
+    android:paddingBottom="18dp"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="end">
+
+
+        <ImageButton
+            android:id="@+id/btnShare"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:theme="@style/btnBg"
+            android:tint="#46151c"
+            android:src="@android:drawable/ic_menu_share"/>
+
+        <ImageButton
+            android:id="@+id/btnExit"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:theme="@style/btnBg"
+            android:tint="#46151c"
+            android:src="@android:drawable/ic_delete"/>
+    </LinearLayout>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/mal_log"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="60dp"
+        android:orientation="vertical"
+        android:background="@drawable/layout_bg"
+        android:padding="20dp">
+
+
+        <Button
+            android:id="@+id/btnOverview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Overview"
+            android:theme="@style/btnBg" />
+
+        <Button
+            android:id="@+id/btnHow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="How to play"
+            android:theme="@style/btnBg" />
+
+        <Button
+            android:id="@+id/btnPlay"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Play"
+            android:theme="@style/btnBg" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
