@@ -1,4 +1,4 @@
-package com.swiftqube.knowmalaria;
+package com.swqube.knowmalaria;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.swiftqube.knowmalaria", appContext.getPackageName());
+        assertEquals("com.swqube.knowmalaria", appContext.getPackageName());
     }
 }

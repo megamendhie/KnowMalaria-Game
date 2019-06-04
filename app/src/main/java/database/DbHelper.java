@@ -15,7 +15,7 @@ import java.io.OutputStream;
 
 public class DbHelper extends SQLiteOpenHelper{
 
-	private static final String db_path = "/data/data/com.swiftqube.knowmalaria/databases/";
+	private static final String db_path = "/data/data/com.swqube.knowmalaria/databases/";
 	private static final String db_name = "knowmal.db";
 	private static  Context ctx;
 	File dbFile;

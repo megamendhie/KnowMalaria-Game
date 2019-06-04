@@ -1,4 +1,4 @@
-package com.swiftqube.knowmalaria;
+package com.swqube.knowmalaria;
 
 import android.content.DialogInterface;
 import android.os.Bundle;

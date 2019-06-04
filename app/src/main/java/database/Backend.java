@@ -6,7 +6,7 @@ import android.preference.PreferenceManager;
 import android.util.Log;
 import android.widget.ImageView;
 
-import com.swiftqube.knowmalaria.R;
+import com.swqube.knowmalaria.R;
 
 import java.util.ArrayList;
 import java.util.Random;
